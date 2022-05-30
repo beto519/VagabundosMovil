@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/lblRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+
+        android:gravity="top"
+        android:text="Registrar"
+        android:textSize="36sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+
+        android:id="@+id/txtNombreUser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:hint="Nombre" />
+    android:inputType="textWebEmailAddress|textPersonName"
+    android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/txtCorreoUser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:hint="Correo"
+        android:inputType="textWebEmailAddress"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/txtPasswordUser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:inputType="textPassword"
+        tools:hint="@string/Contraseña" />
+
+
+    <Button
+        android:id="@+id/btnAgregarUser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="#050505"
+
+
+        android:text="Registrarse"
+
+        android:textColor="#F8F0F0"
+        android:textSize="24sp" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VagabundosUrbanShop</string>
+
+    <string name="Usuario">Usuario</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Login">Login</string>
+</resources>

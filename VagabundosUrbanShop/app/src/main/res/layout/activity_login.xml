@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Principal" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        app:srcCompat="@drawable/round_account_button_with_user_inside_icon_icons_com_72596" />
+
+    <AutoCompleteTextView
+
+        android:id="@+id/txtUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:hint="@string/Usuario"
+        android:inputType="textWebEmailAddress|textPersonName"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:hint="@string/Contraseña"
+        android:inputType="text|textPassword"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:background="#171616"
+        android:hint="@string/Login"
+        android:shadowColor="#571313"
+        android:text="@string/Login"
+        android:textColor="#EDE8E8"
+        android:textColorHighlight="#FFF9FB"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnRegistrarLogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:background="#0E0E0E"
+
+
+        android:text="Registrarse"
+        android:textColor="#E8E3E3"
+        android:textSize="24sp" />
+
+</LinearLayout>
